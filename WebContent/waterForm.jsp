@@ -176,6 +176,19 @@
             padding: 12px 60px;
             font: 400 20px Libre Franklin, sans-serif;
         }
+        
+        .textInput {
+            border-radius: 5px;
+            border: 1px solid #d9d9d9;
+            background-color: #fff;
+            display: flex;
+            margin-top: 15px;
+            width: 70%; /* Adjusted width */
+            max-width: 100%;
+            height: 50px; /* Adjusted height */
+            flex-direction: column;
+            padding: 10px; /* Added padding for better appearance */
+        }
 
         @media (max-width: 991px) {
             .div-12 {
@@ -193,11 +206,11 @@
                 <div class="div-5">
                     <p style="text-align: left; float: left">Household Water Usage*</p>
                 </div>
-                <div class="div-6"></div>
+                <input type="text" class="textInput">
                 <div class="div-7">
                     <p style="text-align: left">Outdoor Water Usage*</p>
                 </div>
-                <div class="div-8"></div>
+                  <input type="text" class="textInput">
                 <div class="div-9">
                     <div class="div-10">Next</div>
                     <div class="div-11">Log-in</div>
